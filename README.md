@@ -5,5 +5,5 @@
 ## 作業環境
 
 ```
-$ docker run -v $(pwd):/work -w /work -it okwrtdsh/shell_gei bash
+$ docker run --rm -v $(pwd):/work -w /work -it okwrtdsh/shell_gei bash
 ```
