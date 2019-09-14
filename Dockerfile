@@ -6,6 +6,9 @@ RUN set -x \
  && apt-get upgrade -y \
  && apt-get install --no-install-recommends -y \
 	software-properties-common \
+	wget \
+	curl \
+	vim \
 	language-pack-ja-base \
 	language-pack-ja \
  && add-apt-repository ppa:duggan/bats \
