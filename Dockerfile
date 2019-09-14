@@ -9,6 +9,7 @@ RUN set -x \
 	wget \
 	curl \
 	vim \
+	jq \
 	language-pack-ja-base \
 	language-pack-ja \
  && add-apt-repository ppa:duggan/bats \
